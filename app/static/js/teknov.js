@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 var initFullPage = function(){
     $('#teknovHomepage').fullpage({
-        anchors: ['home', 'services', 'aboutUs', 'todo'],
+        anchors: ['home', 'services', 'aboutUs', 'team', 'contactUs'],
         afterLoad: function (anchorLink, index) {
             $(".nav").find(".active").removeClass("active");
             $('li[data-menuanchor="'+ anchorLink + '"]').addClass("active");
